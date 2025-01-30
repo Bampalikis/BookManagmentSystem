@@ -14,12 +14,12 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/authors")
-public class AuthorController {
+public class AuthorPanel {
 
     private final AuthorService authorService;
 
     @Autowired
-    public AuthorController(AuthorService authorService) {
+    public AuthorPanel(AuthorService authorService) {
         this.authorService = authorService;
     }
 
