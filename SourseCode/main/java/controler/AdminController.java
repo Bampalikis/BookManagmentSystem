@@ -17,14 +17,14 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/admin")
-public class AdminController {
+public class AdminPanel {
 
     private final UserService userService;
     private final BorrowedBookService borrowedBookService;
     private final BookService bookService;
 
     @Autowired
-    public AdminController(UserService userService, BorrowedBookService borrowedBookService, BookService bookService) {
+    public AdminPanel(UserService userService, BorrowedBookService borrowedBookService, BookService bookService) {
         this.userService = userService;
         this.borrowedBookService = borrowedBookService;
         this.bookService = bookService;
