@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
-public class AuthController {
+public class AuthenticationPanel {
 
     private final UserService userService;
 
     @Autowired
-    public AuthController(UserService userService) {
+    public AuthenticationPanel(UserService userService) {
         this.userService = userService;
     }
 
