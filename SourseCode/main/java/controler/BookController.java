@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping("/books")
-public class BookController {
+public class BookPanel {
 
     @Autowired
     private BookService bookService;
