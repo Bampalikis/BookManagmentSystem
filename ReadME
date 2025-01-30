@@ -1,1 +1,22 @@
+Book Management System
+------------------------------------
+Overview
 
+The Book Management System is a software application designed to manage books efficiently. It provides functionality for adding, updating, deleting, and retrieving book records.
+----------------------------------
+Features
+
+Add new books with details such as title, author, and genre.
+
+Update book information.
+
+Delete books from the system.
+
+Retrieve book details based on various criteria.
+
+User-friendly interface.
+--------------------------------
+
+License
+
+This project is licensed under the MIT License.
